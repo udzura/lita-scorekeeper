@@ -1,4 +1,3 @@
-
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "lita/scorekeeper/version"
@@ -7,11 +6,11 @@ Gem::Specification.new do |spec|
   spec.name          = "lita-scorekeeper"
   spec.version       = Lita::Scorekeeper::VERSION
   spec.authors       = ["Uchio KONDO"]
-  spec.email         = ["udzura@pepabo.com"]
+  spec.email         = ["udzura@udzura.jp"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Lita port of https://github.com/yoshiori/hubot-scorekeeper}
+  spec.description   = spec.summary
+  spec.homepage      = "https://github.com/udzura/lita-scorekeeper"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
